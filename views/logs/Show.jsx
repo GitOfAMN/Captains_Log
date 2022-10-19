@@ -9,7 +9,6 @@ class Show extends React.Component {
         const capName = title[0].toUpperCase() + title.substring(1)
         return(
         <Default title={`${capName} Show Page`} logs={this.props.log}>
-            {entry}
             <p>{capName} and {shipIsBroken? 'it\'s broken': 'it\'s not broken'}</p>
         </Default>
         )
